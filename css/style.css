@@ -1,0 +1,85 @@
+*body{
+    margin: 0;
+    padding: 0;    
+}
+
+.loginbox{
+    height: 400px;
+    width: 385px;
+    background-image: url(../img/nu.png);
+    background-size: 43%;
+    background-position:calc(93%);
+    background-repeat: no-repeat;
+    background-color:black;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    border-color:1px solid lime;
+   text-align: center;
+}
+.htag{
+    color: #ffcc00;
+    font-family: 'Turret Road', cursive;
+    font-weight: bold;
+    font-size: 37px;
+    
+}
+
+.htag:hover{
+    color: ;
+    
+}
+
+.user{
+    margin-bottom: 16px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: transparent;
+    color:white;
+    
+
+}
+.user:focus {
+    border: 3px solid #ffcc00;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    padding: 10px;
+    background-color: #ffcc00;
+    text-align: center;
+}
+
+::placeholder{
+    color: #ffcc00;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+}
+::placeholder:hover{
+    color: chartreuse;
+}
+
+.sub{
+    padding: 10px;
+    width: 80%;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #ffcc00;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
